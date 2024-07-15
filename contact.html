@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--<form action="https://www.google.com/search">
+    <input type="text" name="q">
+  </form>-->
+  <fieldset>
+    <legend>form</legend>
+    <form action="mailto:rk@gmail.com?subject=hello " method="post" enctype="text/plain">
+      <p>
+      <label for="mail">Email</label>
+      <input type="email" id="mail" name="email" placeholder="write email here" required>
+      </p>
+<p>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="write username" required>
+    </p>
+<p>
+      <label for="male">male</label>
+      <input type="radio" id="male" name="gender" value="male" checked>
+    </p>
+<p>
+      <label for="female">female</label>
+      <input type="radio" id="female" name="gender" value="female" >
+    </p>
+<p>
+  <h2>select your Habits</h2>
+      <label for="football">football</label>
+      <input type="checkbox" id="football" name="habits" value="football" >
+    </p>
+    <p>
+    <h1>select country</h1>
+<select name="country" id="country">
+  <option value="Bhutan">Bhutan</option>
+  <option value="china">China</option>
+</select>
+</p>
+<p>
+  <textarea name="msg" id="message"></textarea>
+</p>
+<p>
+  
+</p>
+<button type="submit">Submit</button>
+<button type="reset"> Reset</button>
+
+    </form>
+  </fieldset>
+</body>
+</html>

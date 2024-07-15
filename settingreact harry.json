@@ -1,0 +1,24 @@
+
+
+{
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.port": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.settings.applyToAllProfiles": [],
+  "editor.codeActionsOnSave": {}
+}
